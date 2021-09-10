@@ -4,8 +4,8 @@ import React from "react";
 const Rank = () => {
   return (
     <div>
-      <div className="white f3">{"Hey, your current rank is..."}</div>
-      <div className="white f1">{"#5"}</div>
+      <div className="white f3">{"Hey, this code sample is best suited for..."}</div>
+      <div className="white f1">{"Single Image Picture"}</div>
     </div>
   );
 };
