@@ -3,10 +3,10 @@ import "./App.css";
 import Navigation from "./component/Navigation/Navigation";
 import Logo from "./component/Logo/Logo";
 import ImageLinkForm from "./component/ImageLinkForm/ImageLinkForm";
-import Rank from "./component/Rank/Rank";
 import "tachyons";
 import Particles from "react-particles-js";
 import FaceRecognition from "./component/FaceRecognition/FaceRecognition";
+import Notice from "./component/Notice/Notice";
 
 
 
@@ -105,7 +105,7 @@ class App extends Component {
         <Particles className="particles" params={particlesOptions} />
         <Navigation />
         <Logo />
-        <Rank />
+        <Notice />
         <ImageLinkForm
           onInputChange={this.onInputChange}
           onButtonSubmit={this.onButtonSubmit}
@@ -117,6 +117,3 @@ class App extends Component {
 }
 
 export default App;
-
-// ca74817fc07c4208a9bf377b9ae75230;API KEY
-// https://cdn.pixabay.com/photo/2016/12/09/09/52/girl-1894125_960_720.jpg
